@@ -10,7 +10,7 @@ h1{
 }
 
 body {
-  text-align:center;
+  text-align: center;
   background-color: #fff
 }
 
@@ -29,7 +29,6 @@ body {
   color: #bd87ff;
   background-color: #bd87ff;
   font-weight: bold;
-  text-align: center;
   text-decoration: none;
   font font-family: Georgia, "Times New Roman";
   padding: 4px
