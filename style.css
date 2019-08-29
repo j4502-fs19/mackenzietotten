@@ -5,8 +5,16 @@ p{
   font-family: Helvetica, Arial, sans-serif;
 
 }
+
+title {
+  font-family: sans-serif;
+}
 h1{
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
 }
 
 body {
@@ -26,7 +34,7 @@ body {
 
 #nav a:link, #nav a:visited {
   display:block;
-  color: #bd87ff;
+  color: #fff;
   background-color: #bd87ff;
   font-weight: bold;
   text-decoration: none;
