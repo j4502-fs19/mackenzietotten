@@ -9,9 +9,12 @@ h1{
   font-family: Georgia, "Times New Roman", serif;
 }
 
-body{
-  background-color: #856fe8
+body {
+  text-align:center;
+  background-color: #fff
+
 }
+]
 #nav {
   padding: 2;
   list-style-type: none;
@@ -34,7 +37,7 @@ body{
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #fe7aff;
+  background-color: #bd87ff;
 }
 .caption
 {
