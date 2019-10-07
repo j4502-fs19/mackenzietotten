@@ -57,6 +57,19 @@ body {
 
 }
 
+#nav{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 599px) {
+  #nav{
+    flex-flow: row wrap;
+    align-content: center;
+  }
+
+
 #footer{
   color: black;
   font-family: 'Libre Baskerville', serif;
