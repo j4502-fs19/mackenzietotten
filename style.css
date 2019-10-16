@@ -89,7 +89,7 @@ body {
 
   .cards {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   }
 
 }
@@ -98,7 +98,6 @@ body {
 
     #nav {
       display:flex;
-    	flex-direction:column;
     	justify-content:space-around;
     }
 
