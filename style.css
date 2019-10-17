@@ -20,6 +20,19 @@ body {
   text-align: center;
   background-color: #E9C9FF
 }
+.menu-trigger{
+  order: 1;
+}
+
+header h1{
+  order: 2;
+  color: white;
+}
+
+nav ul {
+  display: none;
+
+}
 
 #nav {
   padding:0;
@@ -84,28 +97,6 @@ body {
 
 }
 
-@media screen and (max-width: 800px) {
-
-  .cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr; 
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-
-    #nav {
-      flex-direction: column;
-    	justify-content:space-around;
-
-    }
-  .cards {
-      display: grid;
-      grid-template-columns: 1fr;
-  }
-
-}
 #footer{
   color: black;
   font-family: 'Libre Baskerville', serif;
@@ -116,3 +107,48 @@ body {
 
 img{
   border: none;}
+
+
+
+/*@media screen and (max-width: 800px) {
+
+  .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/*@media screen and (max-width: 600px) {
+
+    #nav {
+      flex-direction: column;
+    	justify-content:space-around;
+
+    }
+  .cards {
+      display: grid;
+      grid-template-columns: 1fr;
+  }*/
+
+  @media screen and (min-width:700px){
+
+    .menu-trigger {
+      display:none;
+    }
+
+    #nav {
+      display:flex;
+    }
+  #nav ul{
+    border-top:none;
+  }
+
+
+  #nav{
+    order:2;
+  }
+  header h1{
+    order:1;
+  }
+  }
